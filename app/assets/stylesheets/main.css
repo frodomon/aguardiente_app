@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/assets/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.top{
+	height: 150px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+.top p{
+	text-align: right;
+	text-decoration: none;
+	font-family: 'Bebas Neue';
+	font-size: 50px;
+}
+
+.top p a,
+.mail a{
+	color:black;
+	text-decoration: none;
+}
+.top p a:hover,
+.mail a:hover{
+	text-decoration: none;
+	color: orange;
+}
+.principal{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.logo-main{
+	height:350px;
+}
+.social,
+.mail {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.mail{
+	margin-top: 10px;
+}
+.mail i{
+	font-size: 20px;
+}
+.mail a{
+	font-family: 'Bebas Neue';
+	font-size:20px;
+}
+.social i{
+	padding: 0 5px;
+}
+.social .fa-facebook-square{
+	color: #3C599F;
+}
+.social .fa-google-plus-square{
+	color: #CF3D2E;
+}
+.social .fa-instagram{
+	color: #A1755C;
+}
+.social .fa-youtube{
+	color: #C52F30;
+}
+footer{
+   margin: 0;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
