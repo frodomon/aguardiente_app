@@ -1,1 +1,21 @@
-<h1>Nosotros</h1>
+<% provide(:title, "Aguardiente Producciones | Nosotros") %>
+<% content_for :header do -%>
+<%= stylesheet_link_tag 'main' %>
+<%= stylesheet_link_tag 'about_us' %>
+<% end -%> 
+<div class="top">
+	<div class="col-lg-4">
+	</div>
+	<div class="about_us col-lg-4">
+		<img src="/images/Logo-Aguardiente.png" class="logo-main" alt="Logo Aguardiente">
+	</div>
+	<div class="col-lg-4">
+		<p><%= link_to 'Inicio', root_path %></p>
+	</div>
+	
+</div>
+<div class='principal-about_us'>
+	<p>En AGUARDIENTE, somos comunicadores apasionados por el audiovisual.</br>
+	Nuestra historia como productora comenzó en el ámbito cinematográfico, para luego expandirnos hacia el cine publicitario y los audiovisuales corporativos. Allí ponemos el corazón y pasión del cine al servicio de los contenidos corporativos de nuestros clientes, logrando productos audiovisuales y multimedia de gran impacto.</br> 
+	En cada proyecto realizado, enfrentamos el encargo de nuestros clientes con la pasión de un proyecto propio. Creemos que toda comunicación lleva consigo un relato propio y al contarlo, el producto final cobra una fuerza e impacto únicas. En Aguardiente queremos ayudar a nuestros clientes a encontrar el relato de sus comunicaciones y contarlo de  una manera cautivante, para lograr la mayor efectividad posible entre su público.</p>
+</div>
