@@ -1,7 +1,22 @@
-.about_us img{
+.top{
 	height:150px;
+}
+.about_us {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.about_us img{
+	height: 100px;
+}
+.flame{
+	padding: 0;
 }
 .principal-about_us p{
 	text-align: justify;
 	margin: 0 20%;
+}
+.principal-about_us{
+	font-size: 20px;
 }

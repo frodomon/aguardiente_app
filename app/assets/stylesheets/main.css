@@ -4,26 +4,39 @@
     font-weight: normal;
     font-style: normal;
 }
-.top{
-	height: 150px;
+.col-lg-12{
+	padding: 0;
+}
+.flame{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
 	align-items: center;
 }
-.top p{
+.flame img{
+	height: 150px;
+}
+.navbar{
+	height: 50px;
+	margin-top: 10px;
+	padding: 0 15px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+.navbar p{
 	text-align: right;
 	text-decoration: none;
 	font-family: 'Bebas Neue';
 	font-size: 50px;
 }
-
-.top p a,
+.navbar p a,
 .mail a{
 	color:black;
 	text-decoration: none;
 }
-.top p a:hover,
+.navbar p a:hover,
 .mail a:hover{
 	text-decoration: none;
 	color: orange;
@@ -35,7 +48,7 @@
 	align-items: center;
 }
 .logo-main{
-	height:350px;
+	margin: 30px 30%;
 }
 .social,
 .mail {
@@ -62,9 +75,11 @@
 }
 .social .fa-google-plus-square{
 	color: #CF3D2E;
+	display:none;
 }
 .social .fa-instagram{
 	color: #A1755C;
+	display:none;
 }
 .social .fa-youtube{
 	color: #C52F30;
